@@ -108,6 +108,14 @@ return {
         pyright = {},
         marksman = {},
         gopls = {},
+        hyprls = {
+          settings = {
+            hyprls = {
+              preferIgnoreFile = false,
+              ignore = { 'hyprlock.conf', 'hypridle.conf' },
+            },
+          },
+        },
       }
 
       -- Ensure the servers and tools above are installed
